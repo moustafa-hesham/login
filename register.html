@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Start Home section -->
+    <header>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imgs/img1.webp" alt="" class="w-75">
+                </div>
+                <div class="col-md-6">
+                    <h2>Create Account</h2>
+                    <div class="text-muted">
+                        <h5>Go ahead and signup, let everyone <br> know how awsome you're</h5>
+                    </div>
+                    <div id="result"></div>
+                    <form method="get" action="success.html" onsubmit="return validate()">
+                        <input type="text" name="user" id="user" class="form-control p-3 mb-3"
+                            placeholder="Enter your name">
+                        <input type="text" name="email" id="email" class="form-control p-3 mb-3"
+                            placeholder="Enter your email">
+                        <input type="password" name="pass" id="pass" class="form-control p-3 mb-3"
+                            placeholder="Enter your password">
+                        <input type="password" name="confirm" id="confirm" class="form-control p-3 mb-3"
+                            placeholder="Re-enter your password">
+                        <input type="submit" value="Create New Account" class="btn btn-primary w-100">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Home section -->
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

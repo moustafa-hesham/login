@@ -1,0 +1,9 @@
+body{
+    background-color: #f6f8ff;
+}
+#result{
+    color: white;
+    background-color: red;
+    /* padding: 10px; */
+    transition: all 0.5s linear;
+}
